@@ -1,4 +1,5 @@
-name: CI
+name: CI-Invalid-Env
+# This workflow is used to test the invalid environment variable handling in the GitHub Actions runner.
 
 on: [push]
 
