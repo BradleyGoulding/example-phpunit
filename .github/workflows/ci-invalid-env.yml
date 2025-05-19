@@ -18,10 +18,10 @@ jobs:
           echo 'LINE 4' >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
 
-      - uses: php-actions/composer@v6
+      - uses: BradleyGoulding/composer@master
 
       - name: PHPUnit Tests
-        uses: php-actions/phpunit@master
+        uses: BradleyGoulding/phpunit@master
         env:
           TEST_NAME: Scarlett
         with:
